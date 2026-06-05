@@ -1,0 +1,32 @@
+/* 多语言切换样式 */
+#language-switch {
+  display: inline-flex;
+  gap: 2px;
+  margin: 0 4px;
+}
+.lang-btn {
+  cursor: pointer;
+  padding: 2px 6px;
+  font-size: 12px;
+  border-radius: 4px;
+  border: 1px solid var(--anzhiyu-theme);
+  color: var(--anzhiyu-fontcolor);
+  background: transparent;
+  transition: all 0.3s;
+  line-height: 1.5;
+}
+.lang-btn.active {
+  background: var(--anzhiyu-theme);
+  color: var(--white);
+  border-color: var(--anzhiyu-theme);
+}
+.lang-btn:hover {
+  opacity: 0.8;
+}
+/* Google Translate 隐藏原始控件 */
+.goog-te-banner-frame.skiptranslate { display: none !important; }
+body { top: 0 !important; }
+.goog-te-gadget-simple { 
+  display: none !important;
+}
+.skiptranslate { display: none !important; }

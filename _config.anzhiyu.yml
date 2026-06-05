@@ -1,0 +1,188 @@
+# AI 无涯 - AnZhiYu 主题配置覆盖
+# 此文件覆盖 themes/anzhiyu/_config.yml 中的对应设置
+
+# ========== 主题色 ==========
+theme_color:
+  enable: true
+  main: "#2563EB"           # 主色调：科技蓝
+  paginator: "#2563EB"      # 分页器颜色
+  link_color: "#2563EB"     # 链接颜色
+  hr_color: "#93C5FD"       # 分隔线颜色
+  text_selection: "#BFDBFE" # 文字选中颜色
+
+# ========== 字体 ==========
+font:
+  global-font-size: 15px
+  code-font-size: 14px
+
+# ========== 菜单 ==========
+menu:
+  首页: / || anzhiyu-icon-home
+  日报: /categories/AI-日报/ || anzhiyu-icon-newspaper
+  论文: /categories/论文速递/ || anzhiyu-icon-flask
+  工具: /categories/工具推荐/ || anzhiyu-icon-tools
+  归档: /archives/ || anzhiyu-icon-box-archive
+  关于: /about/ || anzhiyu-icon-paper-plane
+# ========== 社交链接 ==========
+social:
+  GitHub: https://github.com/556990 || anzhiyu-icon-github
+  # RSS: /atom.xml || anzhiyu-icon-rss
+
+# ========== 作者状态 ==========
+author_status:
+  enable: true
+  statusImg: "https://img.090227.xyz/file/ae62475a131f3734a201c.png"
+  skills:
+    - "🤖 AI 资讯每日精选"
+    - "📡 关注大模型前沿动态"
+    - "🔍 深挖 AI 工具与技巧"
+    - "🧠 用 AI 解读 AI"
+
+# ========== 默认封面（文章无封面时使用） ==========
+default_cover:
+  - https://images.unsplash.com/photo-1677442136019-21780ecad995?w=800&q=80
+
+# ========== 首页背景 ==========
+background:
+  index:
+    enable: true
+    url: https://images.unsplash.com/photo-1677442136019-21780ecad995?w=1600&q=80
+
+# ========== 头像 ==========
+avatar:
+  img: https://npm.elemecdn.com/anzhiyu-blog-static@1.0.4/img/avatar.jpg
+
+# ========== 网站图标 ==========
+favicon: /favicon.ico
+apple_touch_icon: /img/512.png
+
+# ========== 副标题打字效果 ==========
+subtitle:
+  enable: true
+  effect: true
+  sub:
+    - "每日 AI 资讯精选"
+    - "聚焦人工智能前沿"
+    - "大模型 · AI 应用 · 学术前沿"
+    - "每天 5 分钟，掌握 AI 圈"
+
+# ========== 侧栏卡片 ==========
+card:
+  enable: true
+  self_intro:
+    enable: true
+    description: "AI 无涯，每天精选全球 AI 前沿动态。用最简短的篇幅，给你最有价值的信息。"
+    button:
+      name: "关于本站"
+      url: /about/
+      icon: anzhiyu-icon-paper-plane
+
+# ========== 文章页 ==========
+post:
+  copyright:
+    enable: false
+  meta:
+    author:
+      enable: true
+    date:
+      enable: true
+    updated:
+      enable: false
+    categories:
+      enable: true
+    tags:
+      enable: true
+  # 文章预览
+  index_post_content:
+    method: 2
+    length: 200
+
+# ========== 文章目录 ==========
+toc:
+  enable: true
+  number: true
+  expand: false
+
+# ========== 相关文章 ==========
+related_post:
+  enable: true
+  limit: 4
+
+# ========== 文章分页 ==========
+post_pagination: true
+
+# ========== Footer ==========
+footer:
+  since: 2025
+  icp:
+    enable: false
+  # 自定义页脚文字
+  custom_text: "AI 无涯 · 每日 AI 资讯精选"
+
+# ========== 黑暗模式 ==========
+display_mode:
+  auto: true
+  default: light
+
+# ========== 加载动画 ==========
+preloader:
+  enable: true
+  source: 1
+  preconnect: true
+
+# ========== 搜索 ==========
+local_search:
+  enable: true
+  preload: true
+
+# ========== 代码高亮 ==========
+highlight_theme: light
+highlight_copy: true
+highlight_lang: true
+
+# ========== 图片效果 ==========
+lightbox: fancybox
+photofigcaption: true
+lazyload:
+  enable: true
+  onlypost: false
+
+# ========== 阅读模式 ==========
+readmode: true
+
+# ========== 无刷新跳转 ==========
+pjax:
+  enable: true
+
+# ========== 文章头图主色调跟随 ==========
+cover_change: true
+
+# ========== 字数统计 ==========
+wordcount:
+  enable: true
+  post_wordcount: true
+  min2read: true
+
+# ========== 51LA 统计 ==========
+LA:
+  enable: true
+  ck: "3Q2VR5oHCAHjvEZQ"
+  LingQueMonitorID: "3Q2VR5oHCAHjvEZQ"
+noticeOutdate:
+  enable: false
+postHeadAiDescription:
+  enable: false
+rightmenu:
+  enable: false
+audit:
+  enable: false
+busuanzi:
+  enable: false
+sticky:
+  enable: false
+top_post:
+  enable: false
+reward:
+  enable: false
+post_copyright:
+  enable: false

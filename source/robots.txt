@@ -1,0 +1,8 @@
+User-agent: *
+Allow: /
+Sitemap: https://556990.xyz/sitemap.xml
+
+# 禁止爬取后台路径
+Disallow: /js/
+Disallow: /css/
+Disallow: /anzhiyu/

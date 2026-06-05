@@ -1,0 +1,106 @@
+# AI 无涯 - Hexo 主配置
+# https://556990.xyz
+
+# 站点
+title: AI 无涯
+subtitle: 每日 AI 资讯精选
+description: 聚焦全球 AI 前沿动态，每天 5 分钟了解人工智能最新进展。涵盖大模型、AI 应用、学术论文、行业趋势。
+author: 无涯
+language: zh-CN
+timezone: Asia/Shanghai
+
+# URL
+url: https://556990.xyz
+permalink: :year/:month/:day/:title/
+permalink_defaults:
+pretty_urls:
+  trailing_index: true
+  trailing_html: true
+
+# 目录
+source_dir: source
+public_dir: public
+tag_dir: tags
+archive_dir: archives
+category_dir: categories
+code_dir: downloads/code
+i18n_dir: :lang
+skip_render:
+
+# 写作
+new_post_name: :year-:month-:day-:title.md
+default_layout: post
+titlecase: false
+external_link:
+  enable: true
+  field: site
+  exclude: ''
+filename_case: 0
+render_drafts: false
+post_asset_folder: false
+relative_link: false
+future: true
+syntax_highlighter: highlight.js
+highlight:
+  line_number: true
+  auto_detect: false
+  tab_replace: ''
+  wrap: true
+  hljs: false
+prismjs:
+  preprocess: true
+  line_number: true
+  tab_replace: ''
+
+# 首页
+index_generator:
+  path: ''
+  per_page: 10
+  order_by: -date
+
+# 分类 & 标签
+default_category: uncategorized
+category_map:
+tag_map:
+
+# 归档
+archive_generator:
+  per_page: 20
+  yearly: true
+  monthly: true
+
+# 主题
+theme: anzhiyu
+
+# 搜索
+search:
+  path: search.xml
+  field: post
+  content: true
+  format: html
+
+# 部署
+deploy:
+  type: ''
+
+# Feed / RSS
+feed:
+  type: atom
+  path: atom.xml
+  limit: 20
+
+# Sitemap
+sitemap:
+  path:
+    - sitemap.xml
+    - sitemap.txt
+  rel: false
+  tags: true
+  categories: true
+
+# 元数据
+meta_generator: true
+date_format: YYYY-MM-DD
+time_format: HH:mm:ss
+updated_option: mtime
+

@@ -1,0 +1,8 @@
+node_modules/
+public/
+db.json
+themes/anzhiyu/.git/
+themes/anzhiyu/node_modules/
+*.log
+.DS_Store
+Thumbs.db

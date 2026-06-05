@@ -1,0 +1,38 @@
+{
+  "name": "AI \u65e0\u6daf",
+  "short_name": "AI \u65e0\u6daf",
+  "start_url": "/",
+  "display": "standalone",
+  "background_color": "#f7f9fe",
+  "theme_color": "#425AEF",
+  "description": "\u805a\u7126\u5168\u7403 AI \u524d\u6cbf\u52a8\u6001\uff0c\u6bcf\u5929 5 \u5206\u949f\u4e86\u89e3\u4eba\u5de5\u667a\u80fd\u6700\u65b0\u8fdb\u5c55",
+  "icons": [
+    {
+      "src": "/img/siteicon/16.png",
+      "sizes": "16x16",
+      "type": "image/png"
+    },
+    {
+      "src": "/img/siteicon/32.png",
+      "sizes": "32x32",
+      "type": "image/png"
+    },
+    {
+      "src": "/img/siteicon/apple-icon-180.png",
+      "sizes": "180x180",
+      "type": "image/png"
+    },
+    {
+      "src": "/img/siteicon/manifest-icon-192.maskable.png",
+      "sizes": "192x192",
+      "type": "image/png",
+      "purpose": "maskable"
+    },
+    {
+      "src": "/img/siteicon/manifest-icon-512.maskable.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable"
+    }
+  ]
+}
